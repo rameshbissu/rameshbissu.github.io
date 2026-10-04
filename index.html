@@ -111,6 +111,15 @@
             transform: translateY(-3px);
             box-shadow: 0 10px 20px -5px rgba(99, 102, 241, 0.5);
         }
+        
+        /* Special styling for the main download button to make it stand out */
+        .btn-download {
+            background: linear-gradient(to right, #6366f1, #8b5cf6);
+            border: none;
+        }
+        .btn-download:hover {
+            background: linear-gradient(to right, #4f46e5, #7c3aed);
+        }
     </style>
 </head>
 <body>
@@ -119,6 +128,10 @@
         <p class="contact">Support: <a href="mailto:rameshbissu646@gmail.com">rameshbissu646@gmail.com</a></p>
         
         <div class="links-wrapper">
+            <!-- App Store Link -->
+            <a href="https://play.google.com/store/apps/details?id=com.arrowgo" target="_blank" class="btn btn-download">Download for Android</a>
+            
+            <!-- Legal Links -->
             <a href="/privacy_policy.html" class="btn">Privacy Policy</a>
             <a href="/terms_conditions.html" class="btn">Terms & Conditions</a>
         </div>
